@@ -24,7 +24,7 @@ public class Orden {
         System.out.println("Id Orden: " + this.idOrden);
         System.out.println("Dispositivos de la Orden: ");
         for (int i = 0; i < this.contadorComputadoras; i++) {
-            System.out.println(this.computadoras[i].getNombre());
+            System.out.println(this.computadoras[i]);
         }
     }
 }
